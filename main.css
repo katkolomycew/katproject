@@ -8,11 +8,10 @@
 body {
   background-color: #A6775B;
   background-image: url(./images/wooden-background.png);
-  background-repeat: no-repeat;
-  background-position: center center;
   background-size: cover;
-  display: flex;
-  justify-content: baseline;
+  background-position: bottom;
+  background-attachment: fixed;
+  overflow: hidden;
 }
 
 nav {
