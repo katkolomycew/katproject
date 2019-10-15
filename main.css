@@ -16,4 +16,8 @@ body {
 
 nav {
   background-color: #745448;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 5px;
 }
