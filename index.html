@@ -9,6 +9,7 @@
   <link rel="icon" href="./images/recipe-book.png">
   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="./searchbar.css">
   <script src="https://kit.fontawesome.com/76c77bf397.js" crossorigin="anonymous"></script>
 
 <body>
@@ -19,7 +20,21 @@
     <nav>
       <h1>Kitchen Adventures</h1>
       <h2>Online Recipe Book</h2>
-      <h3>[search bar]</h3>
+      <div class="overlay">
+        <a class="search-trigger fullscreen-trigger" href="#"
+          style="display: table-cell; padding: 0 45px 0 20px; vertical-align: middle;" id="search-button-listener">
+          <div id="search-button"><i class="fa fa-search"></i></div>
+        </a>
+        <div class="fullscreen-search-overlay" id="search-overlay">
+          <a href="#" class="fullscreen-close" id="fullscreen-close-button"><i class="fa fa-times"></i></a>
+          <div id="fullscreen-search-wrapper">
+            <form method="get" id="fullscreen-searchform" action="">
+              <input type="text" value="" placeholder="" id="fullscreen-search-input">
+              <i class="fa fa-search fullscreen-search-icon"><input value="" type="submit"></i>
+            </form>
+          </div>
+        </div>
+      </div>
     </nav>
   </header>
 
