@@ -87,7 +87,7 @@
 }
 
 .fullscreen-search-overlay {
-  background-color: hsl(22, 30%, 50%, 0.5);
+  background-color: hsl(22, 30%, 50%, 0.96);
   text-align: center;
   visibility: hidden;
   opacity: 0;

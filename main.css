@@ -5,24 +5,43 @@
   font-family: 'Raleway', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  background-color: #d4bfb5;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #745448;	
+}
+
+::-webkit-scrollbar-track {
+	background-color: #d4bfb5;
+}
+
 body {
   background-color: #A6775B;
   background-image: url(./images/wooden-background.png);
-  background-size: cover;
-  background-position: bottom;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
 /* --------------------> NAVIGATION */
 
 nav {
   background-color: #745448;
-  color: #d4bfb5;
   font-size: 1.5rem;
-  padding: 5px;
+  color: #d4bfb5;
   justify-content: space-evenly;
   align-items: center;
+  padding: 5px;
   display: flex;
 }
 
@@ -31,35 +50,31 @@ nav {
 /* --------------------> HOMEPAGE LOGO */
 
 .logo {
-  width: 300px;
-  margin: 7% auto;
+  width: 400px;
+  margin: 8% auto;
 }
 
 .shadow {
   color: white;
-  text-shadow: 2px 4px 6px black;
-  font-family: Arvo;
-  font-weight: bold;
-  line-height: 0.9em;
-  letter-spacing: 0.1em;
-  transform: scaleY(0.9);
-  -webkit-transform: scaleY(0.9);
-  -moz-transform: scaleY(0.9);
-  margin:0;
+  text-shadow: 2px 4px 6px #745448;
+  font-family: 'Arvo', serif; 
   text-align: center;
+  font-weight: bold;
+  line-height: 1.1em;
+  letter-spacing: 0.15rem; 
 }
 
 .script {
-  font-family: "Seaweed Script";
   color: white;
   text-align: center;
   font-size: 30px;
+  padding: 10px;
   position: relative;
 }
 
 .script span {
   background-color: #A6775B;
-  padding: 0 0.3em;
+  padding: 5px;
 }
 
 .script:before {
@@ -73,121 +88,15 @@ nav {
 }
 
 .text1 {
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .text2 {
-  font-size: 60px;
+  font-size: 65px;
 }
 
 .text3 {
-  font-size: 40px;
+  font-size: 45px;
 }
 
 /* --------------------> HOMEPAGE LOGO */
-
-
-
-/* ul, li{
-  margin:0;
-  padding:0;
-  list-style:none;
-}
-
-.diamonds{
-  font-size:1em;
-  width: 46.875em;
-  margin: 0 auto;
-  padding: 4.500em 0 0 ;
-}
-
-.diamonds li {
-	perspective: 1000;
-  width: 11.125em;
-  height: 11.125em;
-  display: block;
-  float:left;
-  margin-left: 4.500em;
-}
-
-/*:nth-child recipes FTW!*/
-.diamonds li:nth-child(2) ~ li{margin-top: -3.313em;}
-
-.diamonds li:nth-child(5n+1){
-  margin-left: 10.063em;
-}
-
-.diamonds li:nth-child(6n-9){
-  margin-left: 2.250em;
-}
-
-/*the flipping thingy*/
-.flipper {
-  display:block;
-  width:100%;
-  height:100%;
-  transform-origin: center center;
-  transition: 0.5s;
-  transform-style: preserve-3d;
-  position: relative;
-  color:#3a66b3;
-}
-
-/*animate on hover*/
-.flipper:hover {
-  transform:
-    rotateX(0deg)
-    rotateY(180deg)
-    rotateZ(0deg);
-}
-
-.front, .back {
-  width: 100%;
-  height: 100%;
-  overflow:hidden;
-  backface-visibility: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.front {
-  z-index: 2;
-  transform:
-    rotateX(0deg)
-    rotateY(0deg)
-    rotateZ(45deg);
-  border: 1px solid #DBDBDB;
-}
-
-.back {
-  background: #DBDBDB;
-  transform:
-    rotateX(0deg)
-    rotateY(180deg)
-    rotateZ(45deg);
-}
-
-.front img{
-  width:140.5%;
-  height:auto;
-  transform:
-    translateX(-14.5%)
-    translateY(-14.5%)
-    translateZ(0)
-    rotateX(0deg)
-    rotateY(0deg)
-    rotateZ(-45deg);
-}
-
-.back span{
-  display:block;
-  width:100%;
-  height:100%;
-  line-height:11.125em;
-  text-align:center;
-    transform:
-    rotateX(0deg)
-    rotateY(0deg)
-    rotateZ(-45deg);
-} */
