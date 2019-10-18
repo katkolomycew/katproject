@@ -27,3 +27,167 @@ nav {
 }
 
 /* --------------------> NAVIGATION */
+
+/* --------------------> HOMEPAGE LOGO */
+
+.logo {
+  width: 300px;
+  margin: 7% auto;
+}
+
+.shadow {
+  color: white;
+  text-shadow: 2px 4px 6px black;
+  font-family: Arvo;
+  font-weight: bold;
+  line-height: 0.9em;
+  letter-spacing: 0.1em;
+  transform: scaleY(0.9);
+  -webkit-transform: scaleY(0.9);
+  -moz-transform: scaleY(0.9);
+  margin:0;
+  text-align: center;
+}
+
+.script {
+  font-family: "Seaweed Script";
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+}
+
+.script span {
+  background-color: #A6775B;
+  padding: 0 0.3em;
+}
+
+.script:before {
+  content:"";
+  display: block;
+  position: absolute;
+  z-index:-1;
+  top: 50%;
+  width: 100%;
+  border-bottom: 3px solid #fff;
+}
+
+.text1 {
+  font-size: 40px;
+}
+
+.text2 {
+  font-size: 60px;
+}
+
+.text3 {
+  font-size: 40px;
+}
+
+/* --------------------> HOMEPAGE LOGO */
+
+
+
+/* ul, li{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+.diamonds{
+  font-size:1em;
+  width: 46.875em;
+  margin: 0 auto;
+  padding: 4.500em 0 0 ;
+}
+
+.diamonds li {
+	perspective: 1000;
+  width: 11.125em;
+  height: 11.125em;
+  display: block;
+  float:left;
+  margin-left: 4.500em;
+}
+
+/*:nth-child recipes FTW!*/
+.diamonds li:nth-child(2) ~ li{margin-top: -3.313em;}
+
+.diamonds li:nth-child(5n+1){
+  margin-left: 10.063em;
+}
+
+.diamonds li:nth-child(6n-9){
+  margin-left: 2.250em;
+}
+
+/*the flipping thingy*/
+.flipper {
+  display:block;
+  width:100%;
+  height:100%;
+  transform-origin: center center;
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  position: relative;
+  color:#3a66b3;
+}
+
+/*animate on hover*/
+.flipper:hover {
+  transform:
+    rotateX(0deg)
+    rotateY(180deg)
+    rotateZ(0deg);
+}
+
+.front, .back {
+  width: 100%;
+  height: 100%;
+  overflow:hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  z-index: 2;
+  transform:
+    rotateX(0deg)
+    rotateY(0deg)
+    rotateZ(45deg);
+  border: 1px solid #DBDBDB;
+}
+
+.back {
+  background: #DBDBDB;
+  transform:
+    rotateX(0deg)
+    rotateY(180deg)
+    rotateZ(45deg);
+}
+
+.front img{
+  width:140.5%;
+  height:auto;
+  transform:
+    translateX(-14.5%)
+    translateY(-14.5%)
+    translateZ(0)
+    rotateX(0deg)
+    rotateY(0deg)
+    rotateZ(-45deg);
+}
+
+.back span{
+  display:block;
+  width:100%;
+  height:100%;
+  line-height:11.125em;
+  text-align:center;
+    transform:
+    rotateX(0deg)
+    rotateY(0deg)
+    rotateZ(-45deg);
+} */
